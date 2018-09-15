@@ -78,7 +78,7 @@ class Home extends Component {
             });
           }}
         >
-          <div>hot</div>
+          <div>分类</div>
         </TabBar.Item>
         <TabBar.Item
           title="购物车"
@@ -102,7 +102,7 @@ class Home extends Component {
             });
           }}
         >
-          <div>map</div>
+          <div>购物车</div>
         </TabBar.Item>
         <TabBar.Item
           title="我的卷皮"
@@ -126,7 +126,7 @@ class Home extends Component {
             });
           }}
         >
-          <div>setting</div>
+          <div>我的卷皮书</div>
         </TabBar.Item>
       </TabBar>
     )

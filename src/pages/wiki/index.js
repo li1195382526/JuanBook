@@ -48,7 +48,7 @@ class Wiki extends Component {
         this.setState({
           wikigrid: result.data.categories.map(value => (
             {
-              icon: value.imgUrl,
+              icon: 'http://placehold.it/200x200',
               text: value.title
             }
           ))
