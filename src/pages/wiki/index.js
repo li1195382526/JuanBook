@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import { Carousel, Grid } from 'antd-mobile';
-
+import { BrowserRouter as Router} from 'react-router-dom'
 import './style.scss'
 
 class Wiki extends Component {
@@ -15,6 +15,7 @@ class Wiki extends Component {
   render() {
     return (
       <Fragment>
+        {/* <Route path="/" component = {Comp1}>最</Route> */}
         <Carousel
           autoplay={true}
           infinite
@@ -23,7 +24,7 @@ class Wiki extends Component {
         >
           {this.state.swiperlist.map(value => (
             <div key={value.id}>
-              <img className="swiper-item" src={value.imgUrl} alt=""/>
+              <img className="swiper-item" src={value.pic} alt=""/>
             </div>
           ))}
         </Carousel>
@@ -34,11 +35,12 @@ class Wiki extends Component {
   }
 
   componentDidMount() {
-    fetch('/api/swiper')
+    fetch('/api/banner')
       .then(response => response.json())
       .then(result => {
+        console.log(result.adsInfo.slide_ads.config.slide)
         this.setState({
-          swiperlist: result.data
+          swiperlist: result.adsInfo.slide_ads.config.slide
         })
       })
 
@@ -56,5 +58,7 @@ class Wiki extends Component {
       })
   }
 }
-
+const Comp1 = (props)=>(
+  <div>comp1</div>
+)
 export default Wiki

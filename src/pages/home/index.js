@@ -13,7 +13,7 @@ import setting from '../../assets/iconfonts/4.svg'
 import settingActive from '../../assets/iconfonts/41.svg'
 
 import Wiki from '../wiki/index'
-
+import Type from '../type/index'
 class Home extends Component {
   constructor(props) {
     super(props)
@@ -78,7 +78,7 @@ class Home extends Component {
             });
           }}
         >
-          <div>分类</div>
+         <Type></Type>
         </TabBar.Item>
         <TabBar.Item
           title="购物车"
