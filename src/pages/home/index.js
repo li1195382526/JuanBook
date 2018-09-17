@@ -3,6 +3,8 @@ import { TabBar } from 'antd-mobile';
 
 import './style.scss'
 
+import { Route, Switch,withRouter } from 'react-router-dom'
+
 import wiki from '../../assets/iconfonts/1.svg'
 import wikiActive from '../../assets/iconfonts/11.svg'
 import hot from '../../assets/iconfonts/2.svg'
@@ -14,6 +16,10 @@ import settingActive from '../../assets/iconfonts/41.svg'
 
 import Wiki from '../wiki/index'
 import Type from '../type/index'
+import Second from '../second/index'
+import Time from '../second/time.js'
+import Supermark from '../second/supermark.js'
+import Dodm from '../second/dodm.js'
 class Home extends Component {
   constructor(props) {
     super(props)
@@ -52,9 +58,17 @@ class Home extends Component {
             this.setState({
               selectedTab: 'wiki',
             });
+            this.props.history.push("/")
           }}
         >
-          <Wiki />
+        <Switch>
+          <Route path="/" exact component={Wiki}></Route>
+          <Route path="/Second" component={Second}></Route>
+          <Route path="/Time" component={Time}></Route>
+          <Route path="/Supermark" component={Supermark}></Route>
+          <Route path="/Dodm" component={Dodm}></Route>
+        </Switch>
+          {/* <Wiki /> */}
         </TabBar.Item>
         <TabBar.Item
           title="分类"
@@ -133,4 +147,4 @@ class Home extends Component {
   }
 }
 
-export default Home
+export default withRouter(Home)
