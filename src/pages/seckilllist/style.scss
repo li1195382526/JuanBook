@@ -1,0 +1,72 @@
+@import '../../style/usage/core/reset';
+
+.deadline{
+    background: white;
+    height: .4rem;
+    line-height: .4rem;
+    margin-bottom: .1rem;
+    text-align: center;
+}
+.seckilllist {
+  display: flex;
+  width: 100%;
+  background: #fff;
+  padding:.1rem;
+  @include border(0 0 1px 0);
+  > div:first-child {
+    width: 1.06rem;
+    height: 1.12rem;
+  }
+  > div:last-child {
+    flex: 1;    
+    position: relative;
+    .goodsTitle{
+        margin-bottom: .2rem;
+        @include ellipsis(null, 2);      
+        /* autoprefixer: off */
+        -webkit-box-orient: vertical !important;
+        /* autoprefixer: on */
+    }
+    .price{
+        color: red;
+        font-size: .12rem;
+        .nowPrice{
+            font-size: .2rem;
+            margin-right: .06rem;
+        }
+        .oldPrice{
+            text-decoration:line-through;
+            color: #bbb;
+        }
+    }
+    .progress{
+        position: absolute;
+        bottom: 0;
+        background: #ffb1b4;
+        width:1.5rem;
+        height: .17rem;
+        line-height:.17rem;
+        overflow: hidden;
+        border-radius: .17rem;
+        text-align:center;
+        > i:first-child{
+
+        }
+        > i:last-child{
+            color: white;
+            font-size:.12rem;
+        }
+    }
+    .buyNow{
+        position: absolute;
+        right: 0;
+        bottom:0;
+        background: #ff464e;
+        color: white;
+        border:none;
+        width:.7rem;
+        height: .3rem;
+        text-align: center;
+    }
+  }
+}
