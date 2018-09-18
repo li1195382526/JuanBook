@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import { Carousel, Grid } from 'antd-mobile';
+import { Carousel, Tabs, Badge } from 'antd-mobile';
 import { NavLink} from 'react-router-dom'
 import './style.scss'
 
@@ -7,15 +7,30 @@ import money from '../../assets/img/money.png'
 import time from '../../assets/img/clock.png'
 import gold from '../../assets/img/do.png'
 import supers from '../../assets/img/supermarket.png'
+import img1 from '../../assets/img/1.gif'
+import img2 from '../../assets/img/1.png'
+import img3 from '../../assets/img/2.png'
+import img4 from '../../assets/img/3.png'
+
 
 class Wiki extends Component {
   constructor(props) {
     super(props)
     this.state = {
       swiperlist: [],
-      wikigrid: []
+      wikigrid: [],
+      tabs:[
+          { title: <Badge text={''}>精选专场</Badge> },
+          { title: <Badge text={''}>精选产品</Badge> }
+          
+        ]
     }
   }
+  // { const tabs = [
+  //   { title: <Badge text={'3'}>First Tab</Badge> },
+  //   { title: <Badge text={'今日(20)'}>Second Tab</Badge> },
+  //   { title: <Badge dot>Third Tab</Badge> },
+  // ] }
 
   render() {
     return (
@@ -44,13 +59,34 @@ class Wiki extends Component {
             <li><NavLink to = "/Supermark"><div className = "li3"><div className = "li31"><img src = {gold} alt=""/></div>品牌特卖</div></NavLink></li>
             <li><NavLink to = "/Dodm"><div className = "li4"><div className = "li41"><img src = {supers} alt=""/></div>生活超市</div></NavLink></li>
           </ul>
+            <div className = "hot">
+              <div className = "hot1">
+                <img src={img1} alt=""/>
+              </div>
+              <div className = "hot2">
+                <img src={img2} alt=""/><img src={img3} alt=""/>
+              </div>
+            </div>
+            <div className = "title">
+              <img src = {img4} alt = ""/>
+            </div>
             
-            
-            
-            
-            
-        <Grid data={this.state.wikigrid} columnNum={3} hasLine={false}/>
-        
+      
+                {/* 精选产品处 */}
+            <Tabs tabs={this.state.tabs}
+            initialPage={1}
+            onChange={(tab, index) => { console.log('onChange', index, tab); }}
+            onTabClick={(tab, index) => { console.log('onTabClick', index, tab);}}
+            >
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '150px', backgroundColor: '#fff' }}>
+            Content of first tab
+           </div>
+          
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '150px', backgroundColor: '#fff' }}>
+              Content of second tab
+            </div>
+          
+            </Tabs>
       </Fragment>
     )
   }

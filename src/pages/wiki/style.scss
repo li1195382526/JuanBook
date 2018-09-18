@@ -11,14 +11,14 @@
   line-height:0.48rem;
   
   img{
-    width:30px;
-    height:30px;
+    width:.30rem;
+    height:.30rem;
   }
 }
 .li1{ 
   .li11{
-    width:63px;
-    height:63px;
+    width:.63rem;
+    height:.63rem;
     border-radius:50%;
     background:#ff463c;
     text-align:center;
@@ -28,8 +28,8 @@
 }
 .li2{
   .li21{
-    width:63px;
-    height:63px;
+    width:.63rem;
+    height:.63rem;
     border-radius:50%;
     background:#ff5a99;
     text-align:center;
@@ -38,8 +38,8 @@
 }
 .li3{
   .li31{
-    width:63px;
-    height:63px;
+    width:.63rem;
+    height:.63rem;
     border-radius:50%;
     background:#807cff;
     text-align:center;
@@ -48,11 +48,46 @@
 }
 .li4{
   .li41{
-    width:63px;
-    height:63px;
+    width:.63rem;
+    height:.63rem;
     border-radius:50%;
     background:#259bff;
     text-align:center;
     line-height:63px;
+  }
+}
+.hot{
+  width:100%;
+  background:#fff;
+  display:flex;
+  justify-content: space-around;
+  height:2.8rem;
+
+}
+.hot1{
+  width:49.5%;
+  background:#f8f8fa;
+  height:2.8rem;
+  img{
+    width:100%;
+    height:100%;
+  }
+}
+.hot2{
+  width:49%;
+  background:#f8f8fa;
+  img{
+    width:100%;
+    height:50%;
+  }
+}
+.title{
+  width:100%;
+  height:.5rem;
+  margin-top:.12rem;
+  margin-bottom: .12rem;
+  img{
+    width:100%;
+    height:100%;
   }
 }
