@@ -20,6 +20,15 @@ import Second from '../second/index'
 import Time from '../second/time.js'
 import Supermark from '../second/supermark.js'
 import Dodm from '../second/dodm.js'
+
+import My from '../my'
+// import Payment from '../myFile/payment.js'
+// import Clouds from '../myFile/clouds.js'
+// import Goods from '../myFile/goods.js'
+// import AfterSales from '../myFile/after-sales.js'
+
+
+
 class Home extends Component {
   constructor(props) {
     super(props)
@@ -140,7 +149,7 @@ class Home extends Component {
             });
           }}
         >
-          <div>我的卷皮书</div>
+          <My />
         </TabBar.Item>
       </TabBar>
     )
