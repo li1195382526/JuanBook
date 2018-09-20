@@ -43,12 +43,7 @@ class Wiki extends Component {
             <li><NavLink to = "/Time"><div className = "li2"><div className = "li21"><img src = {time} alt="" /></div>限时秒杀</div></NavLink></li>
             <li><NavLink to = "/Supermark"><div className = "li3"><div className = "li31"><img src = {gold} alt=""/></div>品牌特卖</div></NavLink></li>
             <li><NavLink to = "/Dodm"><div className = "li4"><div className = "li41"><img src = {supers} alt=""/></div>生活超市</div></NavLink></li>
-          </ul>
-            
-            
-            
-            
-            
+          </ul>       
         <Grid data={this.state.wikigrid} columnNum={3} hasLine={false}/>
         
       </Fragment>
