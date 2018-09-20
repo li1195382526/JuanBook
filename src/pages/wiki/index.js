@@ -55,7 +55,7 @@ class Wiki extends Component {
               
             // }} 
             ><NavLink to = "/Second"><div className = "li1"><div className = "li11"><img src = {money} alt=""/></div>瓜分60元</div></NavLink></li>
-            <li><NavLink to = "/Time"><div className = "li2"><div className = "li21"><img src = {time} alt="" /></div>限时秒杀</div></NavLink></li>
+            <li><NavLink to = "/Seckill"><div className = "li2"><div className = "li21"><img src = {time} alt="" /></div>限时秒杀</div></NavLink></li>
             <li><NavLink to = "/Supermark"><div className = "li3"><div className = "li31"><img src = {gold} alt=""/></div>品牌特卖</div></NavLink></li>
             <li><NavLink to = "/Dodm"><div className = "li4"><div className = "li41"><img src = {supers} alt=""/></div>生活超市</div></NavLink></li>
           </ul>

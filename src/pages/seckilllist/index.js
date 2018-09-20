@@ -3,7 +3,7 @@ import React, { Component , Fragment} from 'react'
 import './style.scss'
 import { fetchData } from '../../utils/common.utils'
 
-import { Tabs, WhiteSpace } from 'antd-mobile';
+import { Tabs } from 'antd-mobile';
 
 class Seckilllist extends Component {
   constructor(props) {
@@ -15,24 +15,19 @@ class Seckilllist extends Component {
  
 
   render() {
-    const tabs = [
-        { title: '1st Tab' },
-        { title: '2nd Tab' },
-        { title: '3rd Tab' },
-        { title: '4th Tab' },
-        { title: '5th Tab' },
-        { title: '6th Tab' },
-        { title: '7th Tab' },
-        { title: '8th Tab' },
-        { title: '9th Tab' },
-        { title: '10th Tab' },
-        { title: '11th Tab' },
+    const tabs = [       
+        { title: '抢购中' },
+        { title: '抢购中' },
+        { title: '抢购中' },
+        { title: '抢购中' },
+        { title: '抢购中' },
+        { title: '抢购中' }
       ];
     return (
         <Fragment>
-            <div>             
+            <div className = "timebar">             
                 <Tabs tabBarBackgroundColor='#30363c'
-                tabBarActiveTextColor='white' tabBarInactiveTextColor='#6b6b6b' prerenderingSiblingsNumber='2'
+                tabBarActiveTextColor='white' tabBarInactiveTextColor='#6b6b6b' 
                 tabs={tabs} renderTabBar={props => <Tabs.DefaultTabBar {...props} page={5} />}>
                 </Tabs>
             </div>
@@ -51,7 +46,7 @@ class Seckilllist extends Component {
                                 <span className='oldPrice'>{value.oprice}</span>
                             </p>
                             <p className='progress'>
-                                 <i></i>
+                                 <i style={{width:'20%'}}></i>
                                  <i>{value.progress_info.txt}</i>
                             </p>
                             <input value='马上抢' className='buyNow' />

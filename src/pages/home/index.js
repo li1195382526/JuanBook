@@ -18,6 +18,7 @@ import Wiki from '../wiki/index'
 import Type from '../type/index'
 import Second from '../second/index'
 import Time from '../second/time.js'
+import Seckill from '../seckill'
 import Supermark from '../second/supermark.js'
 import Dodm from '../second/dodm.js'
 class Home extends Component {
@@ -64,7 +65,7 @@ class Home extends Component {
         <Switch>
           <Route path="/" exact component={Wiki}></Route>
           <Route path="/Second" component={Second}></Route>
-          <Route path="/Time" component={Time}></Route>
+          <Route path="/Seckill" component={Seckill}></Route>
           <Route path="/Supermark" component={Supermark}></Route>
           <Route path="/Dodm" component={Dodm}></Route>
         </Switch>
