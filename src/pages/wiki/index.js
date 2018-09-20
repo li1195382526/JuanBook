@@ -106,9 +106,10 @@ class Wiki extends Component {
                   columnNum={2}
                   renderItem={dataItem => (
                     <div style={{ padding: '12.5px' }}>
-                      <img src={dataItem.icon} style={{ width: '100%', height: '100%' }} alt="" />
+                      <img src={dataItem.icon} style={{ width: '100px', height: '100px' }} alt="" />
                       <div style={{ color: '#888', fontSize: '14px', marginTop: '12px' }}>
-                        <span>I am title..</span>
+                        <span className = "discount">{dataItem.discount}</span>
+                        <p>{dataItem.text}</p>
                       </div>
                     </div>
                   )}
@@ -120,9 +121,10 @@ class Wiki extends Component {
                   columnNum={2}
                   renderItem={dataItem => (
                     <div style={{ padding: '12.5px' }}>
-                      <img src={dataItem.icon} style={{ width: '100%', height: '100%' }} alt="" />
+                      <img src={dataItem.icon} style={{ width: '100px', height: '100px' }} alt="" />
                       <div style={{ color: '#888', fontSize: '14px', marginTop: '12px' }}>
-                        <span>I am title..</span>
+                        <span className = "discount">{dataItem.discount}</span>
+                        <p>{dataItem.text}</p>
                       </div>
                     </div>
                   )}
@@ -152,7 +154,8 @@ class Wiki extends Component {
           goodsList: result.data.goods.map(value => (
             {
               icon: value.pic_url,
-              text: value.title
+              text: value.title,
+              discount:value.coupon_tips
             }
           ))
         })
