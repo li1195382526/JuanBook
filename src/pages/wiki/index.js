@@ -102,23 +102,31 @@ class Wiki extends Component {
             hasLine={false}/> */}
 
           
-          <Grid data={this.state.goodsList}
-              columnNum={2}
-              renderItem={dataItem => (
-                <div style={{ padding: '12.5px' }}>
-                  <img src={dataItem.icon} style={{ width: '100%', height: '100%' }} alt="" />
-                  <div style={{ color: '#888', fontSize: '14px', marginTop: '12px' }}>
-                    <span>I am title..</span>
-                  </div>
-                </div>
-              )}
-            />
-
-
+              <Grid data={this.state.goodsList}
+                  columnNum={2}
+                  renderItem={dataItem => (
+                    <div style={{ padding: '12.5px' }}>
+                      <img src={dataItem.icon} style={{ width: '100%', height: '100%' }} alt="" />
+                      <div style={{ color: '#888', fontSize: '14px', marginTop: '12px' }}>
+                        <span>I am title..</span>
+                      </div>
+                    </div>
+                  )}
+                />
            </div>
           
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '150px', backgroundColor: '#fff' }}>
-              Content of second tab
+            <div className = "goods" style={{  backgroundColor: '#fff' }}>
+            <Grid data={this.state.goodsList}
+                  columnNum={2}
+                  renderItem={dataItem => (
+                    <div style={{ padding: '12.5px' }}>
+                      <img src={dataItem.icon} style={{ width: '100%', height: '100%' }} alt="" />
+                      <div style={{ color: '#888', fontSize: '14px', marginTop: '12px' }}>
+                        <span>I am title..</span>
+                      </div>
+                    </div>
+                  )}
+                />
             </div>
           
             </Tabs>
