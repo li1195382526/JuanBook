@@ -16,6 +16,7 @@ import Goods from './pages/myFile/goods.js'
 import AfterSales from './pages/myFile/after-sales.js'
 
 import Home_shopList from './pages/Home_shopList'
+import Home_goods from './pages/Home_goods'
 
 class App extends Component {
   render() {
@@ -32,6 +33,7 @@ class App extends Component {
           <Route path="/Goods" component={Goods} ></Route>
           <Route path="/AfterSales" component={AfterSales} ></Route>
           <Route path="/Home_shopList" component={Home_shopList}></Route>
+          <Route path="/Home_goods" component={Home_goods}></Route>
         {/* <Home></Home> */}
      </Switch>
 

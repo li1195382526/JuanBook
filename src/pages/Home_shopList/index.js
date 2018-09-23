@@ -70,8 +70,8 @@ class Home_shopList extends Component {
                             renderItem={dataItem => (
                                 <div style={{ width:'200px',height:'270px' }} 
                                 onClick={()=>{
-                                    // console.log(dataItem.id)
-                                    this.props.history.push('/Home_shopList',{id:dataItem.id})
+                                    
+                                    this.props.history.push('/Home_goods')
                                 }
                                 }>
                                 <img src={dataItem.icon} style={{ width: '200px', height: '200px' }} alt="" />
@@ -90,7 +90,7 @@ class Home_shopList extends Component {
                                 <div style={{ width:'159px',height:'270px' }} 
                                 onClick={()=>{
                                     // console.log(dataItem.id)
-                                    this.props.history.push('/Home_shopList',{id:dataItem.id})
+                                    this.props.history.push('/Home_goods',{id:dataItem.id})
                                 }
                                 }>
                                 <img src={dataItem.icon} style={{ width: '200px', height: '200px' }} alt="" />
@@ -109,7 +109,7 @@ class Home_shopList extends Component {
                                 <div style={{ width:'159px',height:'270px' }} 
                                 onClick={()=>{
                                     // console.log(dataItem.id)
-                                    this.props.history.push('/Home_shopList',{id:dataItem.id})
+                                    this.props.history.push('/Home_goods',{id:dataItem.id})
                                 }
                                 }>
                                 <img src={dataItem.icon} style={{ width: '200px', height: '200px' }} alt="" />
@@ -128,7 +128,7 @@ class Home_shopList extends Component {
                                 <div style={{ width:'159px',height:'270px' }} 
                                 onClick={()=>{
                                     // console.log(dataItem.id)
-                                    this.props.history.push('/Home_shopList',{id:dataItem.id})
+                                    this.props.history.push('/Home_goods',{id:dataItem.id})
                                 }
                                 }>
                                 <img src={dataItem.icon} style={{ width: '200px', height: '200px' }} alt="" />
@@ -147,7 +147,7 @@ class Home_shopList extends Component {
                                 <div style={{ width:'159px',height:'270px' }} 
                                 onClick={()=>{
                                     // console.log(dataItem.id)
-                                    this.props.history.push('/Home_shopList',{id:dataItem.id})
+                                    this.props.history.push('/Home_goods',{id:dataItem.id})
                                 }
                                 }>
                                 <img src={dataItem.icon} style={{ width: '200px', height: '200px' }} alt="" />
