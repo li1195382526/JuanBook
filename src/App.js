@@ -15,6 +15,7 @@ import Clouds from './pages/myFile/clouds.js'
 import Goods from './pages/myFile/goods.js'
 import AfterSales from './pages/myFile/after-sales.js'
 
+import Home_shopList from './pages/Home_shopList'
 
 class App extends Component {
   render() {
@@ -30,6 +31,7 @@ class App extends Component {
           <Route path="/Clouds" component={Clouds} ></Route>
           <Route path="/Goods" component={Goods} ></Route>
           <Route path="/AfterSales" component={AfterSales} ></Route>
+          <Route path="/Home_shopList" component={Home_shopList}></Route>
         {/* <Home></Home> */}
      </Switch>
 

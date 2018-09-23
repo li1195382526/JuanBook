@@ -15,12 +15,15 @@ import img3 from '../../assets/img/2.png'
 import img4 from '../../assets/img/3.png'
 import img5 from '../../assets/img/2.gif'
 
+
+
 class Wiki extends Component {
   constructor(props) {
     super(props)
     this.state = {
       swiperlist: [],
       wikigrid: [],
+      goodsList1:[],
       tabs:[
           { title: <Badge text={''}>精选专场</Badge> },
           { title: <Badge text={''}>精选产品</Badge> }
@@ -78,7 +81,7 @@ class Wiki extends Component {
             <div className = "hot3">
               <img src = {img5} alt = ""/>
             </div>
-            <div className = "title">
+            <div className = "wiki_title">
               <img src = {img4} alt = ""/>
             </div>
             
@@ -106,8 +109,13 @@ class Wiki extends Component {
               <Grid data={this.state.goodsList}
                   columnNum={2}
                   renderItem={dataItem => (
-                    <div style={{ padding: '12.5px' }}>
-                      <img src={dataItem.icon} style={{ width: '100px', height: '100px' }} alt="" />
+                    <div style={{ width:'200px',height:'270px' }} 
+                    onClick={()=>{
+                          // console.log(dataItem.id)
+                          this.props.history.push('/Home_shopList',{id:dataItem.id})
+                    }
+                    }>
+                      <img src={dataItem.icon} style={{ width: '200px', height: '200px' }} alt="" />
                       <div style={{ color: '#888', fontSize: '14px', marginTop: '12px' }}>
                         <span className = "discount">{dataItem.discount}</span>
                         <p>{dataItem.text}</p>
@@ -118,13 +126,13 @@ class Wiki extends Component {
            </div>
           
             <div className = "goods" style={{  backgroundColor: '#fff' }}>
-            <Grid data={this.state.goodsList}
+            <Grid data={this.state.goodsList1}
                   columnNum={2}
                   renderItem={dataItem => (
-                    <div style={{ padding: '12.5px' }}>
-                      <img src={dataItem.icon} style={{ width: '100px', height: '100px' }} alt="" />
+                    <div style={{ width:'159px',height:'270px' }} >
+                      <img src={dataItem.icon} style={{ width: '200px', height: '200px' }} alt="" />
                       <div style={{ color: '#888', fontSize: '14px', marginTop: '12px' }}>
-                        <span className = "discount">{dataItem.discount}</span>
+                        <span className = "discount">￥{dataItem.price}</span>
                         <p>{dataItem.text}</p>
                       </div>
                     </div>
@@ -133,11 +141,6 @@ class Wiki extends Component {
             </div>
           
             </Tabs>
-
-          {/* </ul>        */}
-       
-        
-
       </Fragment>
     )
   }
@@ -161,7 +164,23 @@ class Wiki extends Component {
             {
               icon: value.pic_url,
               text: value.title,
-              discount:value.coupon_tips
+              discount:value.coupon_tips,
+              id:value.shop_id
+            }
+          ))
+        })
+      })
+
+      fetch('/api/list1')
+      .then(response => response.json())
+      .then(result => {
+        console.log(result.data.goods)
+        this.setState({
+          goodsList1: result.data.goods.map(value => (
+            {
+              icon: value.pic_url,
+              text: value.title,
+              price:value.cprice
             }
           ))
         })

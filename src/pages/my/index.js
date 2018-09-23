@@ -1,13 +1,13 @@
 import React, { Component, Fragment } from 'react'
-import { TabBar } from 'antd-mobile';
-import { NavLink, withRouter } from 'react-router-dom'
+// import { TabBar } from 'antd-mobile';
+import { NavLink } from 'react-router-dom'
 import './style.scss'
 
 import payment from '../../assets/img/money.png'
 import clouds from '../../assets/img/clock.png'
 import goods from '../../assets/img/do.png'
 import afterSales from '../../assets/img/supermarket.png'
-import Route from 'react-router-dom/Route';
+// import Route from 'react-router-dom/Route';
 
 class My extends Component {
     render() {
