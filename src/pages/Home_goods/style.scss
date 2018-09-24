@@ -1,0 +1,104 @@
+.goodsMsg{
+    width:100%;
+    height:100px;
+    background:#fff;
+}
+.goodsSum{
+    display:flex;
+    height:.45rem;
+    line-height:.45rem;
+    .goodsMsg1{
+        color:#ff9664;
+        font-size:16px;
+        margin-left:.1rem;
+    }
+    del{
+        font-size:8px;
+        color:#bbbbbb;
+    }
+    .goodsMsg2{
+        display:block;
+        width:.28rem;
+        height:.14rem;
+        background:#ff464e;
+        color:#fff;
+        font-size:12px;
+        line-height:.14rem;
+        margin-top:.15rem;
+        margin-left:.1rem;
+    }
+    .goodsMsg3{
+        display:block;
+        margin-left:1.45rem;
+        font-size:10px;
+        color:#999999;
+    }
+}
+.goodsMsg4{
+    margin-left:.1rem;
+}
+.afterSale{
+    width:100%;
+    height:.4rem;
+    background:#fff;
+    margin-top:.1rem;
+    margin-bottom:.1rem;
+    ul{
+        display:flex;
+        li{
+            margin-left:.1rem;
+            line-height:.4rem;
+        }
+        li:nth-child(4){
+            margin-left:1.5rem;
+        }
+    }
+}
+.change{
+    width:100%;
+    height:.4rem;
+    background:#fff;
+    padding-left:.1rem;
+    line-height:.4rem;
+}
+.shopName{
+    width:100%;
+    height:.6rem;
+    background:#fff;
+    margin-top:.1rem;
+    margin-bottom:.1rem;
+    padding-left:.1rem;
+    line-height:.4rem;
+}
+.imgMSg{
+    width:100%;
+}
+.call{
+    
+    height:auto;
+    margin-left:.2rem;
+    margin-right:.2rem;
+    .call1{
+        font-size:14px;
+        color:#000;
+        line-height:24px;
+    }
+    .call2{
+        font-size:14px;
+        color:#9b9b9b;
+        line-height:24px;
+    }
+}
+.ulList{
+    margin-left:.3rem;
+    padding-top:.1rem;
+    li{
+        color:#666;
+        line-height:24px;
+        span{
+            margin-left:.18rem;
+            color:#000;
+            
+        }
+    }
+}
