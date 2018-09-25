@@ -6,7 +6,7 @@ class Type extends Component {
    render(){
        return (
            <div>
-              类别
+            type
            </div>
        )
    }

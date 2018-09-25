@@ -3,6 +3,8 @@ import { Carousel, Tabs, Badge } from 'antd-mobile';
 import { NavLink} from 'react-router-dom'
 import './style.scss'
 
+import { Grid } from 'antd-mobile';
+
 import money from '../../assets/img/money.png'
 import time from '../../assets/img/clock.png'
 import gold from '../../assets/img/do.png'
@@ -11,7 +13,7 @@ import img1 from '../../assets/img/1.gif'
 import img2 from '../../assets/img/1.png'
 import img3 from '../../assets/img/2.png'
 import img4 from '../../assets/img/3.png'
-
+import img5 from '../../assets/img/2.gif'
 
 class Wiki extends Component {
   constructor(props) {
@@ -23,7 +25,12 @@ class Wiki extends Component {
           { title: <Badge text={''}>精选专场</Badge> },
           { title: <Badge text={''}>精选产品</Badge> }
           
-        ]
+        ],
+        // data :Array.from(new Array(9)).map((_val, i) => ({
+        //   icon: 'https://gw.alipayobjects.com/zos/rmsportal/nywPmnTAvTmLusPxHPSu.png',
+        //   text: `name${i}`,
+        // })),
+        goodsList:[]
     }
   }
   // { const tabs = [
@@ -51,13 +58,12 @@ class Wiki extends Component {
           <ul className = "list">
             <li 
             //  onClick={() => {
-            //   this.props.history.push('/Second')
-              
+            //   this.props.history.push('/Second')              
             // }} 
             ><NavLink to = "/Second"><div className = "li1"><div className = "li11"><img src = {money} alt=""/></div>瓜分60元</div></NavLink></li>
-            <li><NavLink to = "/Seckill"><div className = "li2"><div className = "li21"><img src = {time} alt="" /></div>限时秒杀</div></NavLink></li>
-            <li><NavLink to = "/Supermark"><div className = "li3"><div className = "li31"><img src = {gold} alt=""/></div>品牌特卖</div></NavLink></li>
-            <li><NavLink to = "/Dodm"><div className = "li4"><div className = "li41"><img src = {supers} alt=""/></div>生活超市</div></NavLink></li>
+            <li><NavLink to = "/Time/seckill"><div className = "li2"><div className = "li21"><img src = {time} alt="" /></div>限时秒杀</div></NavLink></li>
+            <li><NavLink to = "/Time/grandsale"><div className = "li3"><div className = "li31"><img src = {gold} alt=""/></div>品牌特卖</div></NavLink></li>
+            <li><NavLink to = "/Supermark"><div className = "li4"><div className = "li41"><img src = {supers} alt=""/></div>生活超市</div></NavLink></li>
           </ul>
             <div className = "hot">
               <div className = "hot1">
@@ -66,6 +72,9 @@ class Wiki extends Component {
               <div className = "hot2">
                 <img src={img2} alt=""/><img src={img3} alt=""/>
               </div>
+            </div>
+            <div className = "hot3">
+              <img src = {img5} alt = ""/>
             </div>
             <div className = "title">
               <img src = {img4} alt = ""/>
@@ -77,9 +86,34 @@ class Wiki extends Component {
             initialPage={1}
             onChange={(tab, index) => { console.log('onChange', index, tab); }}
             onTabClick={(tab, index) => { console.log('onTabClick', index, tab);}}
+            tabBarActiveTextColor='red'
+            initialPage='1'
             >
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '150px', backgroundColor: '#fff' }}>
-            Content of first tab
+            <div className = "goods" style={{  backgroundColor: '#fff' }}>
+              
+            {/* <Grid 
+            // onClick={(el, index) => {
+            //   this.props.history.push('/wikilist', { id: el.id })
+            // }} 
+            data={this.state.goodsList} 
+            columnNum={2} 
+           
+            hasLine={false}/> */}
+
+          
+          <Grid data={this.state.goodsList}
+              columnNum={2}
+              renderItem={dataItem => (
+                <div style={{ padding: '12.5px' }}>
+                  <img src={dataItem.icon} style={{ width: '100%', height: '100%' }} alt="" />
+                  <div style={{ color: '#888', fontSize: '14px', marginTop: '12px' }}>
+                    <span>I am title..</span>
+                  </div>
+                </div>
+              )}
+            />
+
+
            </div>
           
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '150px', backgroundColor: '#fff' }}>
@@ -95,19 +129,20 @@ class Wiki extends Component {
     fetch('/api/banner')
       .then(response => response.json())
       .then(result => {
-        console.log(result.adsInfo.slide_ads.config.slide)
+        // console.log(result.adsInfo.slide_ads.config.slide)
         this.setState({
           swiperlist: result.adsInfo.slide_ads.config.slide
         })
       })
 
-    fetch('/api/index')
+    fetch('/api/list')
       .then(response => response.json())
       .then(result => {
+        console.log(result.data.goods)
         this.setState({
-          wikigrid: result.data.categories.map(value => (
+          goodsList: result.data.goods.map(value => (
             {
-              icon: 'http://placehold.it/200x200',
+              icon: value.pic_url,
               text: value.title
             }
           ))
