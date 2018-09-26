@@ -17,10 +17,11 @@ import settingActive from '../../assets/iconfonts/41.svg'
 import Wiki from '../wiki/index'
 import Type from '../type/index'
 import Second from '../second/index'
-import Time from '../second/time.js'
+import Time from '../second/time'
 import Supermark from '../second/supermark.js'
-import Dodm from '../second/dodm.js'
-
+// <<<<<<< HEAD
+// import Dodm from '../second/dodm.js'
+// 
 
 
 import My from '../my'
@@ -30,6 +31,8 @@ import My from '../my'
 // import AfterSales from '../myFile/after-sales.js'
 
 
+// =======
+// >>>>>>> liuqi
 
 class Home extends Component {
   constructor(props) {
@@ -76,10 +79,8 @@ class Home extends Component {
           <Route path="/" exact component={Wiki}></Route>
           <Route path="/Second" component={Second}></Route>
           <Route path="/Time" component={Time}></Route>
-          <Route path="/Supermark" component={Supermark}></Route>
-          <Route path="/Dodm" component={Dodm}></Route>
+          <Route path="/Supermark" component={Supermark}></Route>          
         </Switch>
-          {/* <Wiki /> */}
         </TabBar.Item>
         <TabBar.Item
           title="分类"

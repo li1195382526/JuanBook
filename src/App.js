@@ -6,9 +6,8 @@ import Home from './pages/home'
 
 
 import Second from './pages/second/index'
-import Time from './pages/second/time.js'
+import Time from './pages/second/time/index'
 import Supermark from './pages/second/supermark.js'
-import Dodm from './pages/second/dodm.js'
 
 import Payment from './pages/myFile/payment.js'
 import Clouds from './pages/myFile/clouds.js'
@@ -24,9 +23,10 @@ class App extends Component {
       <Switch>
 
           <Route path="/Second" component={Second}></Route>
-          <Route path="/Time" component={Time}></Route>
+          <Route path="/Time/:id" component={Time}></Route>
           <Route path="/Supermark" component={Supermark}></Route>
-          <Route path="/Dodm" component={Dodm}></Route>
+{/* <<<<<<< HEAD */}
+          {/* <Route path="/Dodm" component={Dodm}></Route> */}
           <Route path="/" exact component={Home}></Route>
           <Route path="/Payment"  component={Payment} ></Route>
           <Route path="/Clouds" component={Clouds} ></Route>
@@ -41,6 +41,10 @@ class App extends Component {
        
     
 
+// =======
+        // <Home></Home>
+        // </Switch>
+// >>>>>>> liuqi
     );
   }
 }

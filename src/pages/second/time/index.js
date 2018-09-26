@@ -1,22 +1,31 @@
 import React ,{ Component } from 'react'
 import { TabBar} from 'antd-mobile'
-import { Route, Switch, withRouter } from 'react-router-dom'
 
 import './style.scss'
 
-import wiki from '../../assets/iconfonts/wiki.svg'
-import wikiActive from '../../assets/iconfonts/wiki-active.svg'
-import hot from '../../assets/iconfonts/hot.svg'
-import hotActive from '../../assets/iconfonts/hot-active.svg'
+import wiki from '../../../assets/iconfonts/wiki.svg'
+import wikiActive from '../../../assets/iconfonts/wiki-active.svg'
+import hot from '../../../assets/iconfonts/hot.svg'
+import hotActive from '../../../assets/iconfonts/hot-active.svg'
 
-import Seckilllist from '../seckilllist'
+import Timelist from '../timelist'
+import Grandsele from '../grandsale'
 
-class Seckill extends Component{
+class Time extends Component{
     constructor(props){
         super(props)
         this.state = {
-            selectedTab: 'wiki'
+            selectedTab: 'grandsale'
         }
+    }
+    componnentWillReceiveProps(){
+        console.log(0)
+    }
+    componentDidMount() {
+        console.log(this.props.match)
+        this.setState({
+            selectedTab: this.props.match.params.id
+        })
     }
     render(){
         return(
@@ -41,15 +50,14 @@ class Seckill extends Component{
                     background: `url(${wikiActive}) center center /  21px 21px no-repeat` }}
                 />
                 }
-                selected={this.state.selectedTab === 'wiki'}
+                selected={this.state.selectedTab === 'seckill'}
                 onPress={() => {
                     this.setState({
-                    selectedTab: 'wiki',
-                    });
-                    this.props.history.push('/')
+                    selectedTab: 'seckill',
+                    })
                 }}
                 >
-                <Seckilllist />
+                <Timelist />
                 </TabBar.Item>
                 <TabBar.Item
                 title="品牌特卖"
@@ -66,17 +74,17 @@ class Seckill extends Component{
                     background: `url(${hotActive}) center center /  21px 21px no-repeat` }}
                 />
                 }
-                selected={this.state.selectedTab === 'hot'}
+                selected={this.state.selectedTab === 'grandsale'}
                 onPress={() => {
                     this.setState({
-                    selectedTab: 'hot',
+                    selectedTab: 'grandsale',
                     });
                 }}
                 >
-                <div>品牌特卖</div>
+                <Grandsele/>
                 </TabBar.Item>   
             </TabBar>
         )
     }
 }
-export default Seckill
+export default Time

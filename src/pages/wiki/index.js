@@ -61,14 +61,19 @@ class Wiki extends Component {
           <ul className = "list">
             <li 
             //  onClick={() => {
-            //   this.props.history.push('/Second')
-              
+            //   this.props.history.push('/Second')              
             // }} 
             ><NavLink to = "/Second"><div className = "li1"><div className = "li11"><img src = {money} alt=""/></div>瓜分60元</div></NavLink></li>
-            <li><NavLink to = "/Time"><div className = "li2"><div className = "li21"><img src = {time} alt="" /></div>限时秒杀</div></NavLink></li>
-            <li><NavLink to = "/Supermark"><div className = "li3"><div className = "li31"><img src = {gold} alt=""/></div>品牌特卖</div></NavLink></li>
-            <li><NavLink to = "/Dodm"><div className = "li4"><div className = "li41"><img src = {supers} alt=""/></div>生活超市</div></NavLink></li>
+{/* <<<<<<< HEAD */}
+            {/* // <li><NavLink to = "/Time"><div className = "li2"><div className = "li21"><img src = {time} alt="" /></div>限时秒杀</div></NavLink></li>
+            // <li><NavLink to = "/Supermark"><div className = "li3"><div className = "li31"><img src = {gold} alt=""/></div>品牌特卖</div></NavLink></li>
+            // <li><NavLink to = "/Dodm"><div className = "li4"><div className = "li41"><img src = {supers} alt=""/></div>生活超市</div></NavLink></li> */}
 
+{/* ======= */}
+            <li><NavLink to = "/Time/seckill"><div className = "li2"><div className = "li21"><img src = {time} alt="" /></div>限时秒杀</div></NavLink></li>
+            <li><NavLink to = "/Time/grandsale"><div className = "li3"><div className = "li31"><img src = {gold} alt=""/></div>品牌特卖</div></NavLink></li>
+            <li><NavLink to = "/Supermark"><div className = "li4"><div className = "li41"><img src = {supers} alt=""/></div>生活超市</div></NavLink></li>
+{/* >>>>>>> liuqi */}
           </ul>
             <div className = "hot">
               <div className = "hot1">

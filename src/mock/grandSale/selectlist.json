@@ -1,0 +1,576 @@
+{
+	"data": {
+		"goods": [
+			{
+				"goods_id": "97280639",
+				"shop_id": "5707013",
+				"title": "喜来娃婴幼专场",
+				"block_type": "24",
+				"goods_jump_url": "https://m.juanpi.com/brand/1790483?shop_id=5707013",
+				"coupon_tips": "满49元减10元",
+				"is_jump": "1",
+				"mkt_info": "2119人已购",
+				"bought_mark": {
+					"bg_color": "0xffffff",
+					"text_color": "0xff464e",
+					"border_color": "0xff464e",
+					"text": "已购买过"
+				},
+				"logo_url": "https://goods3.juancdn.com/bao/170321/5/4/58d0c26ca43d1f6c204b12cc_180x90.png",
+				"ss_cover": "https://goods3.juancdn.com/goods/180822/5/d/5b7d28cab6f8ea68f92b2f93_750x290.jpg?iopcmd=convert&Q=88&dst=jpg",
+				"activityname": "click_cube_goods",
+				"server_jsonstr": "{\"pit_info\":\"shop::5707013::1_1\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\"}",
+				"start_time": "1537408800",
+				"end_time": "1537840800",
+				"remain_time": "410428",
+				"sub_data": [
+					{
+						"pic": "https://goods2.juancdn.com/bao/170413/3/f/58ef1ae8a43d1f11e30d591c_800x800.jpg?imageMogr2/thumbnail/310x310!",
+						"cp": "¥49.9",
+						"cp_color": "#ff464e",
+						"op": "¥69",
+						"title": "宝宝有机棉连体哈衣",
+						"jump_url": "https://web.juanpi.com/pintuan/shop/90280469",
+						"goods_id": "90280469",
+						"activityname": "click_cube_goods",
+						"server_jsonstr": "{\"pit_info\":\"shop::5707013::1_1\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\",\"sub_md\":\"90280469::1\",\"hot_goods_id\":\"90280469\"}",
+						"corner": "",
+						"cat_topid": "3239",
+						"rate": "0.84",
+						"progress_info": {
+							"percent": "0.16",
+							"txt": "已抢16%",
+							"style": "1"
+                        }
+                    },
+					{
+						"pic": "https://goods1.juancdn.com/bao/161105/1/a/581d920a151ad106108b45cc_800x800.jpg?iopcmd=thumbnail&type=11&height=310&width=310",
+						"cp": "¥29.9",
+						"cp_color": "#ff464e",
+						"op": "¥59",
+						"title": "宝宝春夏薄款内衣套装",
+						"jump_url": "https://web.juanpi.com/pintuan/shop/99280989",
+						"goods_id": "99280989",
+						"activityname": "click_cube_goods",
+						"server_jsonstr": "{\"pit_info\":\"shop::5707013::1_2\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\",\"sub_md\":\"99280989::2\",\"hot_goods_id\":\"99280989\"}",
+						"corner": "",
+						"cat_topid": "3239",
+						"rate": "0.83",
+						"progress_info": {
+							"percent": "0.17",
+							"txt": "已抢17%",
+							"style": "1"
+                        }
+                    },
+					{
+						"pic": "https://goods5.juancdn.com/bao/170510/8/3/59127651a43d1f2d7925a37c_800x800.jpg?iopcmd=thumbnail&type=11&height=310&width=310",
+						"cp": "¥29.9",
+						"cp_color": "#ff464e",
+						"op": "¥69",
+						"title": "宝宝拼色背带裤套装",
+						"jump_url": "https://web.juanpi.com/pintuan/shop/95380329",
+						"goods_id": "95380329",
+						"activityname": "click_cube_goods",
+						"server_jsonstr": "{\"pit_info\":\"shop::5707013::1_3\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\",\"sub_md\":\"checkMore::3\",\"hot_goods_id\":\"95380329\"}",
+						"corner": "",
+						"cat_topid": "3239",
+						"rate": "0.8",
+						"progress_info": {
+							"percent": "0.2",
+							"txt": "已抢20%",
+							"style": "1"
+                        }
+                    }
+				]
+			},
+			{
+				"goods_id": "94961957",
+				"shop_id": "5829054",
+				"title": "简朵大牌清仓专场",
+				"block_type": "24",
+				"goods_jump_url": "https://m.juanpi.com/brand/1790483?shop_id=5829054",
+				"coupon_tips": "满2件8折",
+				"is_jump": "1",
+				"mkt_info": "2287人已购",
+				"bought_mark": {
+					"bg_color": "0xffffff",
+					"text_color": "0xff464e",
+					"border_color": "0xff464e",
+					"text": "已购买过"
+				},
+				"logo_url": "https://goods3.juancdn.com/bao/170822/4/e/599bcaa1a9fcf871403c6f19_180x90.png",
+				"ss_cover": "https://goods3.juancdn.com/goods/180915/5/9/5b9c5ea2b6f8ea66013b2a0a_750x290.jpg?iopcmd=convert&Q=88&dst=jpg",
+				"activityname": "click_cube_goods",
+				"server_jsonstr": "{\"pit_info\":\"shop::5829054::1_3\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\"}",
+				"start_time": "1537408800",
+				"end_time": "1537840800",
+				"remain_time": "410428",
+				"sub_data": [
+					{
+						"pic": "https://goods8.juancdn.com/goods/180305/f/6/5a9ca177a9fcf865d827100b_800x800.jpg?imageMogr2/thumbnail/310x310!",
+						"cp": "¥59",
+						"cp_color": "#ff464e",
+						"op": "¥399",
+						"title": "简朵双排扣中长款风衣",
+						"jump_url": "https://web.juanpi.com/pintuan/shop/90961617",
+						"goods_id": "90961617",
+						"activityname": "click_cube_goods",
+						"server_jsonstr": "{\"pit_info\":\"shop::5829054::1_3\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\",\"sub_md\":\"checkMore::3\",\"hot_goods_id\":\"90961617\"}",
+						"corner": "",
+						"cat_topid": "685",
+						"rate": "0.86",
+						"progress_info": {
+							"percent": "0.14",
+							"txt": "已抢14%",
+							"style": "1"
+                        }
+                    },
+					{
+						"pic": "https://goods7.juancdn.com/goods/180901/d/1/5b89ddf233b08957113c0934_800x800.jpg?iopcmd=thumbnail&type=11&height=310&width=310",
+						"cp": "¥79",
+						"cp_color": "#ff464e",
+						"op": "¥459",
+						"title": "韩版职业OL风衣外套女",
+						"jump_url": "https://web.juanpi.com/pintuan/shop/96071337",
+						"goods_id": "96071337",
+						"activityname": "click_cube_goods",
+						"server_jsonstr": "{\"pit_info\":\"shop::5829054::1_4\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\",\"sub_md\":\"96071337::4\",\"hot_goods_id\":\"96071337\"}",
+						"corner": "",
+						"cat_topid": "685",
+						"rate": "0.84",
+						"progress_info": {
+							"percent": "0.16",
+							"txt": "已抢16%",
+							"style": "1"
+                        }
+                    },
+					{
+						"pic": "https://goods1.juancdn.com/goods/180901/1/c/5b89e77e33b0895059235d74_800x800.jpg?iopcmd=thumbnail&type=11&height=310&width=310",
+						"cp": "¥79",
+						"cp_color": "#ff464e",
+						"op": "¥339",
+						"title": "牛仔中长款连衣裙外套",
+						"jump_url": "https://web.juanpi.com/pintuan/shop/99271417",
+						"goods_id": "99271417",
+						"activityname": "click_cube_goods",
+						"server_jsonstr": "{\"pit_info\":\"shop::5829054::1_5\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\",\"sub_md\":\"99271417::5\",\"hot_goods_id\":\"99271417\"}",
+						"corner": "",
+						"cat_topid": "685",
+						"rate": "0.83",
+						"progress_info": {
+							"percent": "0.17",
+							"txt": "已抢17%",
+							"style": "1"
+                        }
+                    }
+                ]
+            },
+			{
+				"goods_id": "92811257",
+				"shop_id": "5819091",
+				"title": "达芙妮女鞋秋上新专场",
+				"block_type": "24",
+				"goods_jump_url": "https://m.juanpi.com/brand/1790483?shop_id=5819091",
+				"coupon_tips": "89元2件任选",
+				"is_jump": "1",
+				"mkt_info": "1693人已购",
+				"bought_mark": {
+					"bg_color": "0xffffff",
+					"text_color": "0xff464e",
+					"border_color": "0xff464e",
+					"text": "已购买过"
+				},
+				"logo_url": "https://goods8.juancdn.com/bao/170406/e/6/58e60cf4ad0a4929a88b45ad_180x90.png",
+				"ss_cover": "https://goods3.juancdn.com/goods/180824/4/c/5b7f76c3b6f8ea2d7a5f315f_750x290.jpg?iopcmd=convert&Q=88&dst=jpg",
+				"activityname": "click_cube_goods",
+				"server_jsonstr": "{\"pit_info\":\"shop::5819091::1_5\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\"}",
+				"start_time": "1537322400",
+				"end_time": "1537754400",
+				"remain_time": "324028",
+				"sub_data": [
+					{
+						"pic": "https://goods7.juancdn.com/tao/171005/d/6/59d5a8f78150a167c862771b_800x800.jpg?iopcmd=thumbnail&type=11&height=310&width=310",
+						"cp": "¥49",
+						"cp_color": "#ff464e",
+						"op": "¥669",
+						"title": "欧美尖头细高跟女鞋",
+						"jump_url": "https://web.juanpi.com/pintuan/shop/90911407",
+						"goods_id": "90911407",
+						"activityname": "click_cube_goods",
+						"server_jsonstr": "{\"pit_info\":\"shop::5819091::1_5\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\",\"sub_md\":\"90911407::5\",\"hot_goods_id\":\"90911407\"}",
+						"corner": "",
+						"cat_topid": "700",
+						"rate": "0.68",
+						"progress_info": {
+							"percent": "0.32",
+							"txt": "已抢32%",
+							"style": "1"
+                        }
+                    },
+					{
+						"pic": "https://goods3.juancdn.com/tao/171005/4/f/59d5e0d9a9fcf830dc581b32_800x800.jpg?iopcmd=thumbnail&type=11&height=310&width=310",
+						"cp": "¥49",
+						"cp_color": "#ff464e",
+						"op": "¥669",
+						"title": "休闲尖头细高跟女鞋",
+						"jump_url": "https://web.juanpi.com/pintuan/shop/92021607",
+						"goods_id": "92021607",
+						"activityname": "click_cube_goods",
+						"server_jsonstr": "{\"pit_info\":\"shop::5819091::1_6\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\",\"sub_md\":\"92021607::6\",\"hot_goods_id\":\"92021607\"}",
+						"corner": "",
+						"cat_topid": "700",
+						"rate": "0.82",
+						"progress_info": {
+							"percent": "0.18",
+							"txt": "已抢18%",
+							"style": "1"
+                        }
+                    },
+					{
+						"pic": "https://goods1.juancdn.com/goods/171005/1/a/59d61edaa9fcf83c8e3d879f_800x800.jpg?iopcmd=thumbnail&type=11&height=310&width=310",
+						"cp": "¥49",
+						"cp_color": "#ff464e",
+						"op": "¥769",
+						"title": "达芙妮纯色粗跟女短靴",
+						"jump_url": "https://web.juanpi.com/pintuan/shop/91121907",
+						"goods_id": "91121907",
+						"activityname": "click_cube_goods",
+						"server_jsonstr": "{\"pit_info\":\"shop::5819091::1_7\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\",\"sub_md\":\"91121907::7\",\"hot_goods_id\":\"91121907\"}",
+						"corner": "",
+						"cat_topid": "700",
+						"rate": "0.9",
+						"progress_info": {
+							"percent": "0.1",
+							"txt": "已抢10%",
+							"style": "1"
+                        }
+                    }
+                ]
+            },
+			{
+				"goods_id": "98161064",
+				"shop_id": "5058080",
+				"title": "卡姿兰彩妆特卖专场",
+				"block_type": "24",
+				"goods_jump_url": "https://m.juanpi.com/brand/1790483?shop_id=5058080",
+				"coupon_tips": "满1件8折",
+				"is_jump": "1",
+				"mkt_info": "1527人已购",
+				"bought_mark": {
+					"bg_color": "0xffffff",
+					"text_color": "0xff464e",
+					"border_color": "0xff464e",
+					"text": "已购买过"
+				},
+				"logo_url": "https://goods2.juancdn.com/bao/170317/3/6/58cb41b4a43d1f411136b044_180x90.png",
+				"ss_cover": "https://goods5.juancdn.com/goods/180813/8/9/5b70fcd933b08955a63c502a_750x290.jpg?iopcmd=convert&Q=88&dst=jpg",
+				"activityname": "click_cube_goods",
+				"server_jsonstr": "{\"pit_info\":\"shop::5058080::1_7\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\"}",
+				"start_time": "1537322400",
+				"end_time": "1537754400",
+				"remain_time": "324028",
+				"sub_data": [
+					{
+						"pic": "https://goods4.juancdn.com/goods/171208/6/6/5a2a584b8150a108274607ef_800x800.jpg?imageMogr2/thumbnail/310x310!",
+						"cp": "¥139",
+						"cp_color": "#ff464e",
+						"op": "¥179",
+						"title": "美颜大咖奢护无暇BB霜",
+						"jump_url": "https://web.juanpi.com/pintuan/shop/91161764",
+						"goods_id": "91161764",
+						"activityname": "click_cube_goods",
+						"server_jsonstr": "{\"pit_info\":\"shop::5058080::1_7\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\",\"sub_md\":\"91161764::7\",\"hot_goods_id\":\"91161764\"}",
+						"corner": "",
+						"cat_topid": "698",
+						"rate": "0.87",
+						"progress_info": {
+							"percent": "0.13",
+							"txt": "已抢13%",
+							"style": "1"
+						}},
+					{
+						"pic": "https://goods4.juancdn.com/goods/171208/7/0/5a2a57eaa9fcf8246715032c_800x800.jpg?imageMogr2/thumbnail/310x310!",
+						"cp": "¥59",
+						"cp_color": "#ff464e",
+						"op": "¥129",
+						"title": "金致胶原保湿液体唇膏",
+						"jump_url": "https://web.juanpi.com/pintuan/shop/99161314",
+						"goods_id": "99161314",
+						"activityname": "click_cube_goods",
+						"server_jsonstr": "{\"pit_info\":\"shop::5058080::1_8\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\",\"sub_md\":\"99161314::8\",\"hot_goods_id\":\"99161314\"}",
+						"corner": "",
+						"cat_topid": "698",
+						"rate": "0.83",
+						"progress_info": {
+							"percent": "0.17",
+							"txt": "已抢17%",
+							"style": "1"
+                        }
+                    },
+					{
+						"pic": "https://goods2.juancdn.com/goods/171208/2/4/5a2a44c8a9fcf8b6565cdb83_800x800.jpg?imageMogr2/thumbnail/310x310!",
+						"cp": "¥39",
+						"cp_color": "#ff464e",
+						"op": "¥69",
+						"title": "卡姿兰双效眼唇卸妆液",
+						"jump_url": "https://web.juanpi.com/pintuan/shop/98161814",
+						"goods_id": "98161814",
+						"activityname": "click_cube_goods",
+						"server_jsonstr": "{\"pit_info\":\"shop::5058080::1_9\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\",\"sub_md\":\"98161814::9\",\"hot_goods_id\":\"98161814\"}",
+						"corner": "",
+						"cat_topid": "698",
+						"rate": "0.86",
+						"progress_info": {
+							"percent": "0.14",
+							"txt": "已抢14%",
+							"style": "1"
+                        }
+                    }
+                ]
+            },
+			{
+				"goods_id": "97651417",
+				"shop_id": "5529081",
+				"title": "淑女心情品牌清仓专场",
+				"block_type": "24",
+				"goods_jump_url": "https://m.juanpi.com/brand/1790483?shop_id=5529081",
+				"coupon_tips": "79元2件任选",
+				"is_jump": "1",
+				"mkt_info": "2125人已购",
+				"bought_mark": {
+					"bg_color": "0xffffff",
+					"text_color": "0xff464e",
+					"border_color": "0xff464e",
+					"text": "已购买过"
+				},
+				"logo_url": "https://goods1.juancdn.com/bao/170426/0/a/59007c27ad0a49fcb78b4581_180x90.png",
+				"ss_cover": "https://goods3.juancdn.com/goods/180917/4/c/5b9f572a33b08911904b6f33_750x290.jpg?iopcmd=convert&Q=88&dst=jpg",
+				"activityname": "click_cube_goods",
+				"server_jsonstr": "{\"pit_info\":\"shop::5529081::1_9\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\"}",
+				"start_time": "1537408800",
+				"end_time": "1537840800",
+				"remain_time": "410428",
+				"sub_data": [
+					{
+						"pic": "https://goods1.juancdn.com/goods/180313/1/2/5aa7914fa9fcf8879642b9fa_800x800.jpg?iopcmd=thumbnail&type=11&height=310&width=310",
+						"cp": "¥49",
+						"cp_color": "#ff464e",
+						"op": "¥169",
+						"title": "长袖单穿长款含棉小衫",
+						"jump_url": "https://web.juanpi.com/pintuan/shop/94751097",
+						"goods_id": "94751097",
+						"activityname": "click_cube_goods",
+						"server_jsonstr": "{\"pit_info\":\"shop::5529081::1_9\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\",\"sub_md\":\"94751097::9\",\"hot_goods_id\":\"94751097\"}",
+						"corner": "",
+						"cat_topid": "685",
+						"rate": "0.86",
+						"progress_info": {
+							"percent": "0.14",
+							"txt": "已抢14%",
+							"style": "1"
+                        }
+                    },
+					{
+						"pic": "https://goods5.juancdn.com/goods/180313/9/d/5aa798318150a158c80d48d3_800x800.jpg?iopcmd=thumbnail&type=11&height=310&width=310",
+						"cp": "¥49",
+						"cp_color": "#ff464e",
+						"op": "¥139",
+						"title": "印花英文长袖T恤小衫",
+						"jump_url": "https://web.juanpi.com/pintuan/shop/90851837",
+						"goods_id": "90851837",
+						"activityname": "click_cube_goods",
+						"server_jsonstr": "{\"pit_info\":\"shop::5529081::1_10\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\",\"sub_md\":\"90851837::10\",\"hot_goods_id\":\"90851837\"}",
+						"corner": "",
+						"cat_topid": "685",
+						"rate": "0.88",
+						"progress_info": {
+							"percent": "0.12",
+							"txt": "已抢12%",
+							"style": "1"
+                        }
+                    },
+					{
+						"pic": "https://goods5.juancdn.com/goods/180313/9/d/5aa770328150a15eff30d59d_800x800.jpg?iopcmd=thumbnail&type=11&height=310&width=310",
+						"cp": "¥49",
+						"cp_color": "#ff464e",
+						"op": "¥219",
+						"title": "休闲打底长款衬衣小衫",
+						"jump_url": "https://web.juanpi.com/pintuan/shop/96851587",
+						"goods_id": "96851587",
+						"activityname": "click_cube_goods",
+						"server_jsonstr": "{\"pit_info\":\"shop::5529081::1_11\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\",\"sub_md\":\"96851587::11\",\"hot_goods_id\":\"96851587\"}",
+						"corner": "",
+						"cat_topid": "685",
+						"rate": "0.77",
+						"progress_info": {
+							"percent": "0.23",
+							"txt": "已抢23%",
+							"style": "1"
+                        }
+                    }
+                ]
+            },
+			{
+				"goods_id": "93290809",
+				"shop_id": "5507026",
+				"title": "乔丹格兰跑步鞋特卖专场",
+				"block_type": "24",
+				"goods_jump_url": "https://m.juanpi.com/brand/1790483?shop_id=5507026",
+				"coupon_tips": "满1件6折",
+				"is_jump": "1",
+				"mkt_info": "2159人已购",
+				"bought_mark": {
+					"bg_color": "0xffffff",
+					"text_color": "0xff464e",
+					"border_color": "0xff464e",
+					"text": "已购买过"
+				},
+				"logo_url": "https://goods8.juancdn.com/bao/170405/f/5/58e469cea43d1f2b8c16581c_180x90.png",
+				"ss_cover": "https://goods3.juancdn.com/goods/180813/5/7/5b71399233b08958c1275603_750x290.jpg?iopcmd=convert&Q=88&dst=jpg",
+				"activityname": "click_cube_goods",
+				"server_jsonstr": "{\"pit_info\":\"shop::5507026::1_11\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\"}",
+				"start_time": "1537408800",
+				"end_time": "1537840800",
+				"remain_time": "410428",
+				"sub_data": [
+					{
+						"pic": "https://goods1.juancdn.com/goods/171104/0/0/59fd6ae88150a17a106a56ef_800x800.jpg?iopcmd=thumbnail&type=11&height=310&width=310",
+						"cp": "¥148",
+						"cp_color": "#ff464e",
+						"op": "¥298",
+						"title": "乔丹格兰男款透气跑鞋",
+						"jump_url": "https://web.juanpi.com/pintuan/shop/97290279",
+						"goods_id": "97290279",
+						"activityname": "click_cube_goods",
+						"server_jsonstr": "{\"pit_info\":\"shop::5507026::1_11\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\",\"sub_md\":\"97290279::11\",\"hot_goods_id\":\"97290279\"}",
+						"corner": "",
+						"cat_topid": "704",
+						"rate": "0.87",
+						"progress_info": {
+							"percent": "0.13",
+							"txt": "已抢13%",
+							"style": "1"
+						}},
+					{
+						"pic": "https://goods8.juancdn.com/goods/171104/e/d/59fd87e78150a12752485dd9_800x800.jpg?imageMogr2/thumbnail/310x310!",
+						"cp": "¥135",
+						"cp_color": "#ff464e",
+						"op": "¥298",
+						"title": "乔丹格兰女休闲运动鞋",
+						"jump_url": "https://web.juanpi.com/pintuan/shop/91190559",
+						"goods_id": "91190559",
+						"activityname": "click_cube_goods",
+						"server_jsonstr": "{\"pit_info\":\"shop::5507026::1_12\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\",\"sub_md\":\"91190559::12\",\"hot_goods_id\":\"91190559\"}",
+						"corner": "",
+						"cat_topid": "704",
+						"rate": "0.81",
+						"progress_info": {
+							"percent": "0.19",
+							"txt": "已抢19%",
+							"style": "1"
+						}},
+					{
+						"pic": "https://goods8.juancdn.com/goods/180314/e/7/5aa88c928150a104aa193700_800x800.jpg?imageMogr2/thumbnail/310x310!",
+						"cp": "¥135",
+						"cp_color": "#ff464e",
+						"op": "¥298",
+						"title": "乔丹格兰情侣款跑步鞋",
+						"jump_url": "https://web.juanpi.com/pintuan/shop/91190969",
+						"goods_id": "91190969",
+						"activityname": "click_cube_goods",
+						"server_jsonstr": "{\"pit_info\":\"shop::5507026::1_13\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\",\"sub_md\":\"91190969::13\",\"hot_goods_id\":\"91190969\"}",
+						"corner": "",
+						"cat_topid": "704",
+						"rate": "0.84",
+						"progress_info": {
+							"percent": "0.16",
+							"txt": "已抢16%",
+							"style": "1"
+						}}
+                ]
+            },
+			{
+				"goods_id": "99291737",
+				"shop_id": "5598049",
+				"title": "烟花烫品质清仓专场",
+				"block_type": "24",
+				"goods_jump_url": "https://m.juanpi.com/brand/1790483?shop_id=5598049",
+				"coupon_tips": "满199元减100元",
+				"is_jump": "1",
+				"mkt_info": "2082人已购",
+				"bought_mark": {
+					"bg_color": "0xffffff",
+					"text_color": "0xff464e",
+					"border_color": "0xff464e",
+					"text": "已购买过"
+				},
+				"logo_url": "https://goods7.juancdn.com/seller/180912/c/0/5b98dea133b08914324cb9b9_180x90.png",
+				"ss_cover": "https://goods7.juancdn.com/goods/180913/c/d/5b9a18dfb6f8ea7a10118038_750x290.jpg?iopcmd=convert&Q=88&dst=jpg",
+				"activityname": "click_cube_goods",
+				"server_jsonstr": "{\"pit_info\":\"shop::5598049::1_13\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\"}",
+				"start_time": "1537322400",
+				"end_time": "1537754400",
+				"remain_time": "324028",
+				"sub_data": [
+					{
+						"pic": "https://goods1.juancdn.com/goods/180907/1/c/5b91e6be33b0895bbb254c39_800x800.jpg?iopcmd=thumbnail&type=11&height=310&width=310",
+						"cp": "¥499",
+						"cp_color": "#ff464e",
+						"op": "¥856",
+						"title": "烟花烫秋冬装女闲歌",
+						"jump_url": "https://web.juanpi.com/pintuan/shop/96671186",
+						"goods_id": "96671186",
+						"activityname": "click_cube_goods",
+						"server_jsonstr": "{\"pit_info\":\"shop::5598049::1_13\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\",\"sub_md\":\"96671186::13\",\"hot_goods_id\":\"96671186\"}",
+						"corner": "",
+						"cat_topid": "685",
+						"rate": "0.86",
+						"progress_info": {
+							"percent": "0.14",
+							"txt": "已抢14%",
+							"style": "1"
+                        }
+                    },
+					{
+						"pic": "https://goods2.juancdn.com/goods/180907/3/0/5b91ec6233b0890ec94e5fb2_800x800.jpg?imageMogr2/thumbnail/310x310!",
+						"cp": "¥419",
+						"cp_color": "#ff464e",
+						"op": "¥666",
+						"title": "烟花烫秋新款玉子玉烟",
+						"jump_url": "https://web.juanpi.com/pintuan/shop/95671396",
+						"goods_id": "95671396",
+						"activityname": "click_cube_goods",
+						"server_jsonstr": "{\"pit_info\":\"shop::5598049::1_14\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\",\"sub_md\":\"95671396::14\",\"hot_goods_id\":\"95671396\"}",
+						"corner": "",
+						"cat_topid": "685",
+						"rate": "0.81",
+						"progress_info": {
+							"percent": "0.19",
+							"txt": "已抢19%",
+							"style": "1"
+                        }
+                    },
+					{
+						"pic": "https://goods6.juancdn.com/goods/180907/a/1/5b91f4f0b6f8ea758a2a7554_800x800.jpg?imageMogr2/thumbnail/310x310!",
+						"cp": "¥569",
+						"cp_color": "#ff464e",
+						"op": "¥1245",
+						"title": "烟花烫秋冬外套曦雨",
+						"jump_url": "https://web.juanpi.com/pintuan/shop/98771606",
+						"goods_id": "98771606",
+						"activityname": "click_cube_goods",
+						"server_jsonstr": "{\"pit_info\":\"shop::5598049::1_15\",\"cid\":\"ppqc_jingxuan\",\"_t\":1537430372,\"_gsort_key\":\"ZXG_SORT_46_20180920_12_8_15|465ba34c883a2eb\",\"_pit_type\":8,\"_z\":\"\",\"sub_md\":\"98771606::15\",\"hot_goods_id\":\"98771606\"}",
+						"corner": "",
+						"cat_topid": "685",
+						"rate": "0.82",
+						"progress_info": {
+							"percent": "0.18",
+							"txt": "已抢18%",
+							"style": "1"
+                        }
+                    }
+                ]
+            }
+		]
+	}
+}
