@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+}
+#root{
+    display:flex;
+    overflow: auto;
+    flex-direction: column;
+}
+// body{
+//     overflow: auto;
+// }
+.Home_banner{
+    width:100%;
+    height:1.26rem;
+    background:url(../../assets/img/11.gif) repeat; 
+    // position:fixed;
+   
+}
+.Home_box{
+    height:.8rem;
+    p{
+        color:#000;
+    }
+    .shopNum{
+        color:#999999;
+        line-height:.22rem;
+    }
+   
+}
+.logo{
+    width:.4rem;
+    height:.4rem;
+    border:1px solid #ebebeb;
+    margin-left:.1rem;
+    margin-right:.1rem;
+    margin-top:.2rem;
+    float:left;
+    img{
+        margin-top:.1rem;
+        width:100%;
+        height:50%;
+    }
+}
+.logoName{
+    float:left;
+    margin-top:.2rem;
+}
+.cloth{
+    width:1.60rem;
+    height:2.32rem;
+    border-left:2px solid #f4f4f8;
+    border-top:2px solid #f4f4f8;
+}
+.img1{
+    float:right;
+    margin-top:.25rem;
+    margin-right:.25rem;
+}
+.full{
+   
+    display:flex;
+    width:.42rem;
+    height:.16rem;
+    border:1px solid #ff464e;
+    font-size:12px;
+    margin-left:.2rem;
+    float:left;
+    margin-right:.12rem;
+}

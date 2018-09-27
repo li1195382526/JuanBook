@@ -16,10 +16,22 @@ import settingActive from '../../assets/iconfonts/41.svg'
 
 import Wiki from '../wiki/index'
 import Type from '../type/index'
+import Shopcar from '../shopcar/index'
 import Second from '../second/index'
 import Time from '../second/time.js'
 import Supermark from '../second/supermark.js'
 import Dodm from '../second/dodm.js'
+
+
+
+import My from '../my'
+// import Payment from '../myFile/payment.js'
+// import Clouds from '../myFile/clouds.js'
+// import Goods from '../myFile/goods.js'
+// import AfterSales from '../myFile/after-sales.js'
+
+
+
 class Home extends Component {
   constructor(props) {
     super(props)
@@ -116,7 +128,7 @@ class Home extends Component {
             });
           }}
         >
-          <div>购物车</div>
+          <Shopcar></Shopcar>
         </TabBar.Item>
         <TabBar.Item
           title="我的卷皮"
@@ -140,7 +152,7 @@ class Home extends Component {
             });
           }}
         >
-          <div>我的卷皮书</div>
+          <My />
         </TabBar.Item>
       </TabBar>
     )
