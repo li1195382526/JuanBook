@@ -1,0 +1,52 @@
+.type-body{
+    background: white;
+}
+.type-sousuo{
+    padding: .125rem;
+
+    input{
+        display: inline-block;
+        width: 100%;
+        height: .30rem;
+        text-indent:.2rem;
+        border:1px solid #dddddd
+    }
+}
+// .type-left{
+   
+//     li{
+//         width: .94rem;
+//         height:.45rem;
+//         line-height: .45rem;
+//         text-indent: .2rem;
+//         background: #f9f9f9;
+        
+//         border-left: .02rem solid #ff464e;
+//         background: white;
+//         color: #ff464e
+//     }
+    
+// }
+.type-left{
+    height:555px;
+}
+.type_class{
+    display:flex;
+    width:100%;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.type_cloth{
+    width:80px;
+    // height:80px;
+    border:1px soild #ccc;
+}
+.type_img{
+    width:70px;
+    height:70px;
+    margin-left:10px;
+}
+.type_cloth p{
+    text-align:center;
+    font-size:12px;
+}

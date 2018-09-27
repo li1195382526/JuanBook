@@ -16,6 +16,7 @@ import settingActive from '../../assets/iconfonts/41.svg'
 
 import Wiki from '../wiki/index'
 import Type from '../type/index'
+import Shopcar from '../shopcar/index'
 import Second from '../second/index'
 import Time from '../second/time'
 import Supermark from '../second/supermark.js'
@@ -128,7 +129,7 @@ class Home extends Component {
             });
           }}
         >
-          <div>购物车</div>
+          <Shopcar></Shopcar>
         </TabBar.Item>
         <TabBar.Item
           title="我的卷皮"
