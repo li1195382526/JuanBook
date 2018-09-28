@@ -1,7 +1,5 @@
 import React,{ Component } from 'react'
 
-
-
 class Supermark extends Component {
    render(){
        return (

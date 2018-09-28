@@ -19,15 +19,10 @@ import Type from '../type/index'
 import Second from '../second/index'
 import Time from '../second/time.js'
 import Supermark from '../second/supermark.js'
-import Dodm from '../second/dodm.js'
+import LifeSupermark from '../second/LifeSupermark'
+
 
 import My from '../my'
-// import Payment from '../myFile/payment.js'
-// import Clouds from '../myFile/clouds.js'
-// import Goods from '../myFile/goods.js'
-// import AfterSales from '../myFile/after-sales.js'
-
-
 
 class Home extends Component {
   constructor(props) {
@@ -75,7 +70,7 @@ class Home extends Component {
           <Route path="/Second" component={Second}></Route>
           <Route path="/Time" component={Time}></Route>
           <Route path="/Supermark" component={Supermark}></Route>
-          <Route path="/Dodm" component={Dodm}></Route>
+          <Route path="/LifeSupermark" component={LifeSupermark}></Route>
         </Switch>
           {/* <Wiki /> */}
         </TabBar.Item>
