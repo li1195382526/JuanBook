@@ -126,7 +126,7 @@ class Home extends Component {
           onPress={() => {
             this.setState({
               selectedTab: 'map',
-            });
+            }); 
           }}
         >
           <Shopcar></Shopcar>
