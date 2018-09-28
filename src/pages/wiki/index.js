@@ -64,16 +64,22 @@ class Wiki extends Component {
             //   this.props.history.push('/Second')              
             // }} 
             ><NavLink to = "/Second"><div className = "li1"><div className = "li11"><img src = {money} alt=""/></div>瓜分60元</div></NavLink></li>
-{/* <<<<<<< HEAD */}
+
+
             {/* // <li><NavLink to = "/Time"><div className = "li2"><div className = "li21"><img src = {time} alt="" /></div>限时秒杀</div></NavLink></li>
             // <li><NavLink to = "/Supermark"><div className = "li3"><div className = "li31"><img src = {gold} alt=""/></div>品牌特卖</div></NavLink></li>
             // <li><NavLink to = "/Dodm"><div className = "li4"><div className = "li41"><img src = {supers} alt=""/></div>生活超市</div></NavLink></li> */}
 
-{/* ======= */}
+            {/* <li><NavLink to = "/Time"><div className = "li2"><div className = "li21"><img src = {time} alt="" /></div>限时秒杀</div></NavLink></li> */}
+            {/* <li><NavLink to = "/Supermark"><div className = "li3"><div className = "li31"><img src = {gold} alt=""/></div>品牌特卖</div></NavLink></li> */}
+            <li><NavLink to = "/LifeSupermark"><div className = "li4"><div className = "li41"><img src = {supers} alt=""/></div>生活超市</div></NavLink></li>
+
+
+
             <li><NavLink to = "/Time/seckill"><div className = "li2"><div className = "li21"><img src = {time} alt="" /></div>限时秒杀</div></NavLink></li>
             <li><NavLink to = "/Time/grandsale"><div className = "li3"><div className = "li31"><img src = {gold} alt=""/></div>品牌特卖</div></NavLink></li>
-            <li><NavLink to = "/Supermark"><div className = "li4"><div className = "li41"><img src = {supers} alt=""/></div>生活超市</div></NavLink></li>
-{/* >>>>>>> liuqi */}
+            {/* <li><NavLink to = "/Supermark"><div className = "li4"><div className = "li41"><img src = {supers} alt=""/></div>生活超市</div></NavLink></li> */}
+
           </ul>
             <div className = "hot">
               <div className = "hot1">
@@ -91,7 +97,7 @@ class Wiki extends Component {
             </div>
             
       
-                {/* 精选产品处 */}
+                {/* 精选产品处 */} 
             <Tabs tabs={this.state.tabs}
             initialPage={1}
             onChange={(tab, index) => { console.log('onChange', index, tab); }}

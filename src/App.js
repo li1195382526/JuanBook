@@ -9,6 +9,9 @@ import Second from './pages/second/index'
 import Time from './pages/second/time/index'
 import Supermark from './pages/second/supermark.js'
 
+import LifeSupermark from './pages/second/LifeSupermark'
+
+
 import Payment from './pages/myFile/payment.js'
 import Clouds from './pages/myFile/clouds.js'
 import Goods from './pages/myFile/goods.js'
@@ -25,8 +28,10 @@ class App extends Component {
           <Route path="/Second" component={Second}></Route>
           <Route path="/Time/:id" component={Time}></Route>
           <Route path="/Supermark" component={Supermark}></Route>
-{/* <<<<<<< HEAD */}
+
+
           {/* <Route path="/Dodm" component={Dodm}></Route> */}
+          <Route path="/LifeSupermark" component={LifeSupermark}></Route>
           <Route path="/" exact component={Home}></Route>
           <Route path="/Payment"  component={Payment} ></Route>
           <Route path="/Clouds" component={Clouds} ></Route>
@@ -37,14 +42,17 @@ class App extends Component {
         {/* <Home></Home> */}
      </Switch>
 
+
       
        
     
 
-// =======
+
         // <Home></Home>
         // </Switch>
-// >>>>>>> liuqi
+
+
+
     );
   }
 }

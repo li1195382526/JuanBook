@@ -21,6 +21,7 @@ import Second from '../second/index'
 import Time from '../second/time'
 import Supermark from '../second/supermark.js'
 // <<<<<<< HEAD
+// <<<<<<< HEAD
 // import Dodm from '../second/dodm.js'
 // 
 
@@ -34,6 +35,12 @@ import My from '../my'
 
 // =======
 // >>>>>>> liuqi
+// =======
+import LifeSupermark from '../second/LifeSupermark'
+
+
+
+// >>>>>>> pingxingxianma
 
 class Home extends Component {
   constructor(props) {
@@ -80,7 +87,12 @@ class Home extends Component {
           <Route path="/" exact component={Wiki}></Route>
           <Route path="/Second" component={Second}></Route>
           <Route path="/Time" component={Time}></Route>
+{/* <<<<<<< HEAD */}
           <Route path="/Supermark" component={Supermark}></Route>          
+{/* ======= */}
+          <Route path="/Supermark" component={Supermark}></Route>
+          <Route path="/LifeSupermark" component={LifeSupermark}></Route>
+{/* >>>>>>> pingxingxianma */}
         </Switch>
         </TabBar.Item>
         <TabBar.Item
